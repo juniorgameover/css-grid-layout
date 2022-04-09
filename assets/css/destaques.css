@@ -8,7 +8,7 @@
 
 .destaques__principal {
     background: url('../img/fortnite.jpg') center / cover no-repeat;
-    grid-column: 1 / 4; /*short hand para definir onde deve estar contido o elemento no grid. No primeiro paramentro 
+     /*short hand para definir onde deve estar contido o elemento no grid. No primeiro paramentro 
     coloca-se a posição inicial e no segundo a posição final*/
     grid-row: 1 / 3;
 }
@@ -27,30 +27,26 @@
 
 .destaques__secundario:nth-child(2) {
     background: url('../img/pubg.jpg') center / cover no-repeat;
-    grid-column: 4 / 4;
-    grid-row: 1 / 1;
+    
 }
 
 .destaques__secundario:nth-child(3) {
     background: url('../img/slack.png') center / cover no-repeat;
-    grid-column: 4 / 4;
-    grid-row: 2 / 2;
+   
 }
 
 .destaques__secundario:nth-child(4) {
     background: url('../img/whatsapp.png') center / cover no-repeat;
-    grid-column: 4 / 4;
-    grid-row: 3 / 3;
+    
 }
 
 .destaques__secundario:nth-child(5) {
     background: url('../img/cs-go.jpg') center / cover no-repeat;
-    grid-column: 3 / 3;
-    grid-row: 3 / 3;
+    
 }
 
 .destaques__categorias {
-    grid-column: 1 / 3;
+   
     grid-row: 3 / 3;
     background-color: silver;
 }
